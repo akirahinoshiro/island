@@ -1,0 +1,10 @@
+#even if in subfolder
+!*/
+*.dae
+*.material
+*.import
+*.png
+*.jpg
+*.md5
+*.stex
+export/
