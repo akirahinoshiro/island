@@ -7,7 +7,7 @@ onready var sun = $sun
 
 var target : Vector3
 var frame = 0
-var r = 50
+var r = 1000
 var alpha = 0
 
 func _ready():
@@ -32,6 +32,7 @@ func _process(_delta):
 		elif (cos(alpha*PI/180) < -.15):
 			#light.light_color = Color(0,0,0,0)
 			light.light_energy = 0
+			frame = frame+10
 		else:
 			light.light_energy = (cos(alpha*PI/180) + .15) * 10
 			light.light_color = Color(1 - (cos(alpha*PI/180) + .15)/1.2,.5,.5,1)

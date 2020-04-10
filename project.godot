@@ -18,6 +18,10 @@ _global_script_class_icons={
 config/name="day/night_island"
 run/main_scene="res://levels/island.tscn"
 
+[debug]
+
+settings/stdout/print_fps=true
+
 [display]
 
 window/vsync/use_vsync=false
@@ -53,4 +57,5 @@ jump={
 [rendering]
 
 threads/thread_model=2
+limits/rendering/max_renderable_elements=655360
 environment/default_environment="res://default_env.tres"

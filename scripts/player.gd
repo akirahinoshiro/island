@@ -1,9 +1,9 @@
 extends KinematicBody
 
-const MOVE_SPEED = 1.0
-const JUMP_FORCE = 2.0
-const GRAVITY = 0.098
-const MAX_FALL_SPEED = 3
+const MOVE_SPEED = 100.0
+const JUMP_FORCE = 200.0
+const GRAVITY = 9.8
+const MAX_FALL_SPEED = 300
 
 const H_LOOK_SENS = 1.0
 const V_LOOK_SENS = 1.0
